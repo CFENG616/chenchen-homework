@@ -78,3 +78,7 @@ main {
     border-radius: 20px;
     text-transform: uppercase;
 }
+
+.button:hover {
+    background-color: #9F804B;
+}
