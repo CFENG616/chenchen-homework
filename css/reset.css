@@ -1,6 +1,7 @@
 /* Remove default margin */
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Set core root defaults */
