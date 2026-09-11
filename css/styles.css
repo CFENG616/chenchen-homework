@@ -1,0 +1,80 @@
+body {
+    background-color: #FAF6F2;
+    font-family: "Inter", sans-serif;
+    color: #181818;
+}
+
+header {
+    max-width: 402px;
+    margin: 0 auto;
+    padding: 24px 20px;
+    background-color: #FAF6F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 40px;
+    color: #181818;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+nav a {
+    color: #181818;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+main {
+    max-width: 402px;
+    min-height: 874px;
+    margin: 0 auto;
+    background-color: #FAF6F2;
+}
+
+.hero {
+    text-align: center;
+    padding: 30px 28px;
+    margin-top: 210px;
+}
+
+.intro {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 52px;
+    margin-bottom: 35px;
+}
+
+.content {
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 210px;
+    padding: 8px 12px;
+    background-color: #181818;
+    color: #FAF6F2;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
